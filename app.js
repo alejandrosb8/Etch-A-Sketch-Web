@@ -34,9 +34,7 @@ function makeGrid(size){
 
 function reset(){
     size = prompt('Set grid size (max 100)')
-    if (size > 100){
-        size = 100;
-    }
+    size = (size > 100) ? 100 : size
     makeGrid(size)
     cells = document.querySelectorAll('.cell')
 }

@@ -9,9 +9,15 @@ html {
 	font-size: 62.5%;
 	font-family: 'Chakra Petch', sans-serif;
 }
+body{
+    height: 100vh;
+    background-color: hsl(240, 45%, 81%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .main__etch{
-    margin: 30px auto;
-    width: 700px;
+    width: 550px;
     height: auto;
     text-align: center;
     background-color: hsl(0, 68%, 53%);
@@ -26,8 +32,8 @@ h1{
 }
 .grid-container{
     display: grid;
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 400px;
     margin: auto;
     background-color: rgb(210, 210, 210);
     margin: auto;
