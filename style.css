@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 62.5%;
+	font-family: 'Chakra Petch', sans-serif;
+}
+.main__etch{
+    margin: 30px auto;
+    width: 700px;
+    height: 620px;
+    text-align: center;
+    background-color: rgb(216, 54, 54);
+    border-radius: 15px;
+}
+h1{
+    font-size: 2.8rem;
+    padding: 14px;
+    color: rgb(255, 254, 184);
+}
+.grid-container{
+    display: grid;
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    background-color: rgb(210, 210, 210);
+    margin: auto;
+}
+.cell{
+    outline: 1px solid rgb(190, 190, 190);
+}
+.colored{
+    background-color: black;
+}
