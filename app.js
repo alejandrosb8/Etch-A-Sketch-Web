@@ -1,7 +1,8 @@
 const container = document.querySelector('.grid-container');
 var cells = document.querySelectorAll('.cell');
+var size = 16
 btnClear = document.querySelector('#clearbtn');
-makeGrid(16);
+makeGrid(size);
 
 btnClear.addEventListener('click', () => {
     cells.forEach(cell =>{
@@ -34,7 +35,7 @@ function makeGrid(size){
 
 function reset(){
     size = prompt('Set grid size (max 100)')
-    size = (size > 100) ? 100 : size
+    size = (size === '') ? 16 : (size > 100) ? 100 : size
     makeGrid(size)
     cells = document.querySelectorAll('.cell')
 }
